@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1915184D193FA54900328D65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1915184C193FA54900328D65 /* main.swift */; };
 		19711E3D194A26F500B85524 /* MyClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19711E3C194A26F500B85524 /* MyClasses.swift */; };
+		19873632196B4A1D0052042A /* String+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19873631196B4A1D0052042A /* String+Range.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		19151849193FA54900328D65 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		1915184C193FA54900328D65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		19711E3C194A26F500B85524 /* MyClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClasses.swift; sourceTree = "<group>"; };
+		19873631196B4A1D0052042A /* String+Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Range.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		19151840193FA54900328D65 = {
 			isa = PBXGroup;
 			children = (
+				19873630196B49940052042A /* Extensions */,
 				1915184B193FA54900328D65 /* exercise */,
 				1915184A193FA54900328D65 /* Products */,
 			);
@@ -63,6 +66,14 @@
 				19711E3C194A26F500B85524 /* MyClasses.swift */,
 			);
 			path = exercise;
+			sourceTree = "<group>";
+		};
+		19873630196B49940052042A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19873631196B4A1D0052042A /* String+Range.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19711E3D194A26F500B85524 /* MyClasses.swift in Sources */,
+				19873632196B4A1D0052042A /* String+Range.swift in Sources */,
 				1915184D193FA54900328D65 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
