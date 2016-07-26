@@ -17,7 +17,7 @@ extension Array {
 
 class Person {
     var name : String
-    @lazy var cards = Array<Card>()
+    lazy var cards = Array<Card>()
     
     weak var BFF : Person?
     //@lazy var friends = Array<Person>()
@@ -34,7 +34,7 @@ class Person {
         //buddy.friends.append(self)
     }
     func unfriend(/*exbuddy : Person*/) {
-        if BFF {BFF!.BFF = nil}
+        if (BFF != nil) {BFF!.BFF = nil}
         BFF = nil
         //exbuddy?.BFF = nil
         //friends.removeAtIndex((friends as NSArray).indexOfObject(exbuddy))
@@ -56,7 +56,7 @@ class Person {
 //        for buddy in friends {
 //            unfriend(buddy)
 //        }
-        println("<<<<< \(name) is dead.")
+        print("<<<<< \(name) is dead.")
     }
 }
 
@@ -69,7 +69,7 @@ class Card {
     }
     
     deinit {
-        println("<<<<< Card of \(holderName) is destoyed.")
+        print("<<<<< Card of \(holderName) is destoyed.")
     }
 }
 
