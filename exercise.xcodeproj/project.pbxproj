@@ -29,6 +29,7 @@
 		19151849193FA54900328D65 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		1915184C193FA54900328D65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		194D07461D46DEBB0085F81F /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		194D07491D46E3D60085F81F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		19711E3C194A26F500B85524 /* MyClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClasses.swift; sourceTree = "<group>"; };
 		19873631196B4A1D0052042A /* String+Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Range.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +48,7 @@
 		19151840193FA54900328D65 = {
 			isa = PBXGroup;
 			children = (
+				194D07491D46E3D60085F81F /* README.md */,
 				19873630196B49940052042A /* Extensions */,
 				1915184B193FA54900328D65 /* exercise */,
 				1915184A193FA54900328D65 /* Products */,
